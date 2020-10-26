@@ -51,3 +51,14 @@ Acknowledgements
 ----------------
 
 Some icons used courtesy of fontawesome.com
+
+
+------------------------------------------------------------------------------------------
+Instructions for cluster splitting functionality
+------------------------------------------------
+If the genes flanking a cluster are known, this fork of antiSMASH is able to set the 
+boundaries of this cluster directly at the flanking genes. *This automates manual cluster*
+*trimming based on known boundary genes. It does not function when boundary genes are not*
+*known.* 
+Amino acid sequences of flanking genes at which to split a cluster need to be supplied in
+FASTA format, and copied into the `antismash/detection/dmz_cds/data` directory.
